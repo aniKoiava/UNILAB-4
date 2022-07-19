@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* list-style-type: none; */
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "logo";
+    src: url(../style/font/Malayalam\ MN.ttc);
+}
+@font-face {
+    font-family: "nav";
+    src: url(../style/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "pop-light";
+    src: url(../style/font/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: "firaGo";
+    src: url(../style/font/FiraGO-Medium.otf);
+}
+@font-face {
+    font-family: "pop-thin";
+    src: url(../style/font/Poppins-LightItalic.ttf);
+}
+@font-face {
+    font-family: "andada";
+    src: url(../style/font/Andada-Regular.otf);
+}
+
+@font-face {
+    font-family: "andada-italic";
+    src: url(../style/font/Andada-Italic.otf);
+}
+@font-face {
+    font-family: "andada-sc";
+    src: url(../style/font/AndadaSC-Regular.otf);
+}
+header{
+    display: flex;
+    border-bottom: 1px solid #000000;
+}
+.logo {
+    font-size: 26px;
+    font-family: "logo";
+    margin: 25px 126px;
+    font-weight: 400;
+}
+.logo a{
+    color: #000000;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    margin: 30px 144px;
+    width: 478px;
+}
+header ul li a{
+    font-size: 18px;
+    margin-left: 51px;
+    font-family: "nav";
+    color: #000000;
+}
+header .user img{
+    margin: 36px 180px;
+}
+.index{
+    font-family: "firaGo";
+    text-align: center;
+    margin-top: 72px;
+}
+.cards{
+    display: flex;
+    width: 90%;
+    margin: 65px auto;
+}
+.card1, .card2, .card3{
+    height: 487px;
+    width: 333px;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    margin-left: 104px;
+
+}
+.cards img{
+    width: 100%;
+    padding: 10px;
+}
+h3{
+    font-family: "nav";
+    font-size: 16px;
+    margin: 6px 26px;
+    font-weight: 700;
+}
+.cards .text{
+    width: 282px;
+    font-size: 14px;
+    font-family: "nav";
+    margin: 8px 26px;    
+}
+.see{
+    height: 30px;
+    width: 118px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    margin-left: 210px;
+
+}
+.see:hover{
+    cursor: pointer;
+}
+.see p{
+    text-align: center;
+    margin-top: 6px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "nav";
+}
+.bottom{
+    display: flex;
+}
+.bottom .description{
+    margin-left: 188px;
+    margin-bottom: 39px;
+}
+.bottom .description li{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.see-more{
+    margin-bottom: 61px;
+}
+.see-more a{
+    color: #000000;
+    text-decoration: underline;
+    font-size: 14px;
+    font-family: "firaGo";
+    margin-left: 1245px;
+}
+/* profile */
+.user-photo img{
+    margin-top: 169px;
+    margin-left: 206px;
+}
+.user{
+    display: flex;
+}
+.name{
+    width: 206px;
+    margin-top: 232px;
+    margin-left: 68px;
+
+}
+h4{
+    font-size: 30px;
+    font-family: "nav";
+}
+.designer{
+    font-size: 22px;
+    font-family: "pop-thin";
+    color: #546CCC;
+    font-weight: 400;
+    margin-top: 14px;
+}
+.information .info{
+    font-size: 24px;
+    font-family: "nav";
+    margin-left: 221px;
+    margin-top: 96px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #7D0000; 
+    display: inline-block;
+    width: 135px;
+    text-align: center;
+}
+.user-info, .user-adr, .user-gender{
+    display: flex;
+    margin-top: 58px;
+    margin-left: 237px;
+}
+h5{
+    font-size: 20px;
+    font-family: "nav";
+}
+.user-info p{
+    margin-left: 163px;
+}
+.user-info p, .user-adr p, .user-gender p{
+    font-size: 20px;
+    font-family: "pop-light";
+    /* margin-left: 163px; */
+}
+.user-adr p{
+    margin-left: 147px;
+}
+.user-gender p{
+    margin-left: 144px
+}
+.edit{
+    height: 70px;
+    width: 265px;
+    border-radius: 10px;
+    background-color: #87AC87;
+    margin-top: 25px;
+    margin-left: 946px;
+    margin-bottom: 162px;
+
+}
+.edit:hover{
+    cursor: pointer;
+    background-color: #6eb06e;
+}
+.edit p{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "nav";
+    padding: 16px 32px;
+} 
+/* contact */
+.middle-contact{
+    display: flex;
+}
+.contact-about{
+    text-align: center;
+    margin-top: 130px;
+    color: #7D0000;
+    font-family: "andada";
+    font-size: 40px;
+}
+.social-info, .social-info1{
+    font-size: 27px;
+    margin-left: 84px;
+}
+.social-info1{
+    margin-top: 119px;
+    margin-left: 324px;
+}
+.adr{
+    margin-bottom: 34px;
+}
+.social-info .mail{
+    margin-top: 119px;
+    margin-left: 280px;
+    font-family: "andada-italic";
+    text-decoration: underline;
+}
+.mobile{
+    margin-top: 34px;
+    margin-left: 280px;
+}
+.map{
+    margin-top: 100px;
+    text-align: center;
+}
+/* about us */
+.about-us{
+    width: 700px;
+    height: 205px;
+    margin-left: 126px;
+    display: inline-block;
+}
+.about-us .about-txt{
+    font-size: 25px;
+    font-family: "andada-sc";
+    margin-left: 126px;
+    margin-top: 90px;
+
+}
+.photo img{
+    position: absolute;
+    left: 865px;
+    top: 400px;
+}
+.adress{
+    font-family: "pop-thin";
+    margin-left: 438px;
+    font-size: 25px;
+    margin-top: 90px;
+}
+/* blog */
+.upper{
+    display: flex;
+
+}
+.blog-header{
+    font-family: "firaGo";
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 47px;
+    margin-left: 94px;
+}
+.search{
+    height: 47px;
+    width: 369px;
+    border-radius: 2px;
+    margin-left: 433px;
+    margin-top: 42px;
+}
+.icon img{
+    position: absolute;
+    top: 150px;
+    left: 1010px;
+}
+input{
+    padding-left: 60px;
+}
+
+.navigation nav ul {
+    display: flex;
+    width: 550px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    margin: 93px auto;
+}
+.navigation nav ul li a{
+    color: #000000;
+    font-family: "firaGO";
+    font-size: 18px;
+
+}
+.blogs{
+    width: 88%;
+    margin: 0 auto;
+}
+.blog2 img{
+    margin-top: 77px;
+}
+.blog1, .blog2{
+    display: flex;
+}
+.blog-txt1, .blog-txt2{
+    height: 228px;
+    width: 918px;
+    background-color: #E5EBE5;
+    margin-left: 22px;
+
+}
+.blog-txt2{
+    margin-top: 76px;
+}
+h6{
+    font-size: 18px;
+    font-family: "firaGo";
+    padding: 35px 36px;
+}
+.blog{
+    font-size: 14px;
+    width: 800px;
+    margin-left: 36px;
+}
+.button1, .button2{
+    width: 174px;
+    height: 40px;
+    border: 1px solid #000000;
+    margin-left: 1074px;
+    margin-top: 14px;
+
+}
+.button2{
+    margin-bottom: 51px;
+}
+.button1:hover, .button2:hover{
+    cursor: pointer;
+    background-color: #E5EBE5;
+}
+.click-here{
+    padding: 10px;
+}
